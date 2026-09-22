@@ -127,5 +127,3 @@ jewellery_store/
 GS Jewels brings together the major components required for a jewellery e-commerce platform in one application. It combines a customer-facing shopping experience with an administrative management system while connecting the frontend, backend, database, authentication, and cloud storage layers.
 
 The project serves as a practical implementation of a modern web application and provides a foundation that can be further expanded with additional e-commerce and intelligent features.
-
-T
