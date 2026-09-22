@@ -120,7 +120,7 @@ function AdminDashboard() {
       <div style={dashboardStyles.header}>
         <p style={dashboardStyles.tagline}>ADMIN PANEL</p>
         <h1 style={dashboardStyles.title}>Admin Dashboard</h1>
-        <p style={dashboardStyles.subtitle}>Manage your GS Jewels store infrastructure from one unified control center.</p>
+        <p style={dashboardStyles.subtitle}>Manage your Kintsugi Jewels store infrastructure from one unified control center.</p>
       </div>
 
       <div style={dashboardStyles.grid}>

@@ -3,7 +3,7 @@ function Footer() {
     <footer className="footer">
 
       <div className="footer-brand">
-        <h2>✦ GS JEWELS</h2>
+        <h2>✦ KINTSUGI JEWELS</h2>
 
         <p>
           Timeless jewellery designed to celebrate

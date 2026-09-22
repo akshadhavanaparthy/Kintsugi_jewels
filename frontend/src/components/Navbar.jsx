@@ -173,7 +173,7 @@ function Navbar() {
         to="/"
         className="logo"
       >
-        ✦ GS JEWELS
+        ✦KINTSUGI JEWELS
       </Link>
 
       {/* =================================================
