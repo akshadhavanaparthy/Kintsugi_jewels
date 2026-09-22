@@ -1,8 +1,8 @@
-# 💎 GS JEWELS
+# 💎 KINTSUGI JEWELS
 
 ### Jewellery That Tells Your Story ✨
 
-GS Jewels is a full-stack jewellery e-commerce web application designed to provide a complete online shopping experience for jewellery customers. The platform brings together product browsing, search, filtering, shopping cart management, authentication, reviews, wishlist functionality, and stock availability in a single application.
+Kintsugi Jewels is a full-stack jewellery e-commerce web application designed to provide a complete online shopping experience for jewellery customers. The platform brings together product browsing, search, filtering, shopping cart management, authentication, reviews, wishlist functionality, and stock availability in a single application.
 
 The project also includes an administrative side where store administrators can manage jewellery products, images, categories, stock, customers, and other store-related operations.
 
@@ -14,14 +14,6 @@ The project also includes an administrative side where store administrators can 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)
 
-
----
-
-## 💎 About
-
-**GS Jewels** is a full-stack jewellery e-commerce application designed to provide a complete online jewellery shopping experience.
-
-The application includes both **customer-side shopping features** and **admin-side product management**, with authentication, image uploads and stock management.
 
 ---
 
@@ -101,29 +93,68 @@ The application includes both **customer-side shopping features** and **admin-si
 ## 🏗️ Project Structure
 
 ```text
-jewellery_store/
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── App.jsx
-│   │   └── App.css
-│   └── package.json
+Kintsugi Jewels/
 │
 ├── backend/
 │   ├── config/
+│   │   ├── cloudinary.js
+│   │   └── db.js
+│   │
 │   ├── controllers/
+│   │   ├── authController.js
+│   │   └── productController.js
+│   │
 │   ├── middleware/
+│   │   ├── authMiddleware.js
+│   │   └── uploadMiddleware.js
+│   │
 │   ├── routes/
-│   ├── server.js
-│   └── package.json
+│   │   ├── adminRoutes.js
+│   │   ├── authRoutes.js
+│   │   └── productRoutes.js
+│   │
+│   ├── package.json
+│   ├── package-lock.json
+│   └── server.js
 │
+├── frontend/
+│   ├── public/
+│   │
+│   ├── src/
+│   │   ├── assets/
+│   │   │
+│   │   ├── components/
+│   │   │   ├── Footer.jsx
+│   │   │   └── Navbar.jsx
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── About.jsx
+│   │   │   ├── AdminAddProduct.jsx
+│   │   │   ├── AdminDashboard.jsx
+│   │   │   ├── Cart.jsx
+│   │   │   ├── Home.jsx
+│   │   │   ├── Jewellery.jsx
+│   │   │   ├── Login.jsx
+│   │   │   ├── ProductDetails.jsx
+│   │   │   ├── Register.jsx
+│   │   │   └── Wishlist.jsx
+│   │   │
+│   │   ├── App.jsx
+│   │   ├── App.css
+│   │   ├── index.css
+│   │   └── main.jsx
+│   │
+│   ├── index.html
+│   ├── package.json
+│   ├── package-lock.json
+│   └── vite.config.js
+│
+├── .gitignore
 └── README.md
 ```
------
+---
 ## 💎 Conclusion
 
-GS Jewels brings together the major components required for a jewellery e-commerce platform in one application. It combines a customer-facing shopping experience with an administrative management system while connecting the frontend, backend, database, authentication, and cloud storage layers.
+Kintsugi Jewels brings together the major components required for a jewellery e-commerce platform in one application. It combines a customer-facing shopping experience with an administrative management system while connecting the frontend, backend, database, authentication, and cloud storage layers.
 
 The project serves as a practical implementation of a modern web application and provides a foundation that can be further expanded with additional e-commerce and intelligent features.
