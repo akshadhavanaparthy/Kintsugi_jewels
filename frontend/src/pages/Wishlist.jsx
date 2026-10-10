@@ -48,7 +48,7 @@ function Wishlist() {
       }
 
       const response = await axios.get(
-        "http://localhost:5000/api/products"
+        "https://kintsugi-jewels.onrender.com/api/products"
       );
 
       const currentProducts = response.data;

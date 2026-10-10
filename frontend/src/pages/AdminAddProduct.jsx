@@ -55,7 +55,7 @@ function AdminAddProduct() {
       const token = localStorage.getItem("token");
 
       const response = await axios.post(
-        "http://localhost:5000/api/products",
+        "https://kintsugi-jewels.onrender.com/api/products",
         data,
         {
           headers: {
