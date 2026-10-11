@@ -8,22 +8,17 @@ const [email, setEmail] = useState("");
 const [password, setPassword] = useState("");
 const [loading, setLoading] = useState(false);
 const [error, setError] = useState("");
-
 const fillDemoAccount = (role) => {
-if (role === "customer") {
-setEmail("[demo.customer@kintsugijewels.com](mailto:demo.customer@kintsugijewels.com)");
-setPassword("DemoCustomer123!");
-} else {
-setEmail("[demo.admin@kintsugijewels.com](mailto:demo.admin@kintsugijewels.com)");
-setPassword("DemoAdmin123!");
-}
+  if (role === "customer") {
+    setEmail("demo.customer@kintsugijewels.com");
+    setPassword("DemoCustomer123!");
+  } else {
+    setEmail("demo.admin@kintsugijewels.com");
+    setPassword("DemoAdmin123!");
+  }
 
-
-setError("");
-
-
+  setError("");
 };
-
 const handleLogin = async (e) => {
 e.preventDefault();
 setError("");
