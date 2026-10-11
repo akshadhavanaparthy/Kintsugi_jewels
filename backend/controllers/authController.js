@@ -12,6 +12,7 @@ const register = async (req, res) => {
                 message: "Name, email and password are required"
             });
         }
+        
 
         const existingUser = await pool.query(
             "SELECT * FROM users WHERE email = $1",
