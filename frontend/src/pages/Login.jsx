@@ -10,10 +10,10 @@ const [loading, setLoading] = useState(false);
 const [error, setError] = useState("");
 const fillDemoAccount = (role) => {
   if (role === "customer") {
-    setEmail("demo.customer@kintsugijewels.com");
+    setEmail("demo.customer@gmail.com");
     setPassword("DemoCustomer123!");
   } else {
-    setEmail("demo.admin@kintsugijewels.com");
+    setEmail("demo.admin@gmail.com");
     setPassword("DemoAdmin123!");
   }
 
